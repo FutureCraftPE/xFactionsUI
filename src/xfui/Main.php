@@ -25,7 +25,7 @@ class Main extends PluginBase implements Listener {
 	public $plugin;
 
 	public function onEnable(){
-		$this->getLogger()->info("FactionsUI by xSoapers");
+		$this->getLogger()->info("FactionsUI by FutureCraft");
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->eco = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");	
 	}
