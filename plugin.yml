@@ -1,11 +1,11 @@
-name: xFactionsUI
+name: FactionsUI
 version: TWICE
 main: xfui\Main
 api: 3.0.0
 softdepend:
 - FormAPI
 - EconomyAPI
-author: xSoapers
+author: Bronzehail
 commands:
  fui:
   description: "Faction UI"
